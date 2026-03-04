@@ -37,6 +37,12 @@ You are the ${name} agent. Your goal is to...
         path: skillDir,
         message: `Skill '${name}' scaffolded successfully.`
     }));
+
+    // 3. Update the Registry Index
+    const { execSync } = require('child_process');
+    execSync('node scripts/generate-registry-index.js');
+
 } catch (error) {
     console.log(JSON.stringify({ error: error.message }));
 }
+
