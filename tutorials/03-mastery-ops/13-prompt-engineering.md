@@ -1,40 +1,69 @@
 # Task 13: Prompt Engineering for Skills
 
-Writing instructions for an AI agent is a specialized form of engineering. In this final foundational task, we'll refine our `SKILL.md` style to ensure reliability and minimize hallucinations.
+Writing instructions for an AI agent is a form of engineering. In this final foundational task, we'll refine our `SKILL.md` to ensure reliability, reduce "hallucinations," and optimize the agent's performance.
 
 ---
 
-## Part 1: Educational - Mastering Instructions
+## Part 1: Educational - The 3 Pillars of Skill Engineering
 
-A good `SKILL.md` is more like a **specification** than a conversation.
-
-### Best Practices:
-1.  **Imperative Form**: Use direct commands.
-    - ❌ "You might want to check the lint errors."
-    - ✅ "Run `npm run lint` and summarize the results."
-2.  **Few-Shot Examples**: Show, don't just tell. If your skill formats output, provide a `## Example Output` section.
-3.  **Negative Constraints**: Tell the agent what **not** to do.
-    - ✅ "Never commit changes without explicitly asking the user first."
-4.  **Selection Logic**: If your skill has multiple scripts, tell the agent *which* one to choose and *when*.
+1.  **Selection Logic**: Clear triggers for *which* script to run.
+2.  **Few-Shot Samples**: Real-world examples of how to interact with the skill.
+3.  **Negative Constraints**: Hard boundaries on what the agent MUST NOT do.
 
 ---
 
-## Part 2: Practical - Using Few-Shot Samples
+## Part 2: Practical - Transforming Instructions
 
-In your `SKILL.md`, add an "Examples" section:
+Let's take a "vague" skill and turn it into a "professional" skill.
+
+### 1. Before: The "Vague" Way
 ```markdown
-## Example Usage:
-User: "Summarize this PR."
-Agent: "Analyzing changes... Found 3 files modified. 1. `main.js` (refactored auth), 2. `auth.js` (new validation logic)..."
+# Instructions
+Please help the user fix their code. You can use our linting script.
+```
+*Why this fails: The agent might not know when to run the script or what to do with the output.*
+
+### 2. After: The "Professional" Way (Using Imperative Form)
+```markdown
+# Instructions
+1. Run `scripts/lint.js` on the provided file path.
+2. If errors are found, **categorize them** into "Critical" (syntax) and "Stylistic" (spacing).
+3. **DO NOT** attempt to fix the files automatically without user approval.
+4. If no errors are found, suggest a performance optimization using `references/performance-tips.md`.
 ```
 
-This acts as a "grounding" mechanism for the LLM, reducing the chance of irrelevant or overly verbose responses.
+---
+
+## Part 3: Few-Shot Grounding (The "Show, Don't Tell" Method)
+
+By adding an `## Example` section to your `SKILL.md`, you provide the agent with a "template" for success.
+
+**`SKILL.md` (Snippet):**
+```markdown
+## Example Interaction:
+**User**: "Check my API code."
+**Agent**: "Running linting script... Found 2 Style issues (missing semicolons) and 0 Critical issues. Would you like me to fix these automatically?"
+```
+
+---
+
+## Part 4: Advanced Multi-Script Selection Logic
+
+If your skill folder has multiple scripts, use a **Decision Table** style in your instructions.
+
+**`SKILL.md` (Snippet):**
+```markdown
+# Tool Selection
+- If the file is a **.js** file: Execute `scripts/analyze-js.js`.
+- If the file is a **.py** file: Execute `scripts/analyze-python.py`.
+- If the task is **summarization**: Read `references/summary-template.md`.
+```
 
 ---
 
 ## Self-Check: Milestone 13
-- [ ] Is your `SKILL.md` body less than 500 lines? (If not, move details to `references/`).
-- [ ] Have you removed all "filler" words like "please" or "kindly"?
-- [ ] Does your skill include an example of its intended output?
+- [ ] Have you replaced "Could you..." and "Please..." with direct commands like "Run...", "Categorize...", or "Execute..."?
+- [ ] Does your skill include an example interaction to ground the agent?
+- [ ] Did you move long explanations (>20 lines) to `references/` files?
 
-**Congratulations!** You have completed the Mastery Track.
+**Congratulations!** You have completed the Mastery Track and the foundational Skill Platform Curriculum.

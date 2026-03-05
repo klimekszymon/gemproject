@@ -72,11 +72,6 @@ When the user says "wrap up," "close session," or "finish for today":
 4. Ask the user if they want you to save this summary to a `SESSION_LOG.md` file.
 ```
 
-### 4. Link the Skill
-```bash
-gemini skills link ./skills/handoff
-```
-
 ---
 
 ## Part 3: Testing the Session Closer

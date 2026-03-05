@@ -1,6 +1,6 @@
 ---
 name: handoff-agent
-description: "Wraps up the current session by summarizing work and suggesting next steps."
+description: "A basic session summarizer (Task 6). Use ONLY when specifically requested by name for educational comparison or basic JSON reporting."
 ---
 
 # Instructions
