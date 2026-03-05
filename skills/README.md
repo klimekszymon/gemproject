@@ -9,7 +9,9 @@ This is an auto-generated index of all available agent skills.
 | **git-helper** | A skill that assists with common git operations like status, commits, and branch management. | `gemini skills install ./skills/git-helper` |
 | **handoff-agent** | Wraps up the current session by summarizing work and suggesting next steps. | `gemini skills install ./skills/handoff-agent` |
 | **greeter** | A skill that provides a personalized greeting to the user. | `gemini skills install ./skills/greeter` |
+| **logo-provider** | No description provided. | `gemini skills install ./skills/logo-provider` |
 | **skill-creator** | A meta-skill that helps developers scaffold and build new AI Agent Skills. | `gemini skills install ./skills/skill-creator` |
+| **test-license-skill** | Testing the asset-copying logic for licenses. | `gemini skills install ./skills/test-license-skill` |
 
 
-*Last updated: Wed, 04 Mar 2026 22:35:43 GMT*
+*Last updated: Thu, 05 Mar 2026 12:00:44 GMT*
