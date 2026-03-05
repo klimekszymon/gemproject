@@ -1,0 +1,19 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# Git Skills (Builds)
+*.skill
+.gemini/skills/*/
+
+# Secrets
+.env
+.env.local
+.env.*.local
+
+# Logs and Drafts
+CHANGELOG_DRAFT.md
+*.log
+
+# Workspace
+.DS_Store

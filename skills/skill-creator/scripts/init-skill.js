@@ -43,15 +43,17 @@ You are the ${name} agent. Your goal is to...
         });
     }
 
+    const RegistryManager = require('../../../index');
+
+    // 4. Link and Index via RegistryManager
+    const linkResult = RegistryManager.linkSkill(skillDir);
+    RegistryManager.generateIndex();
+
     console.log(JSON.stringify({
         success: true,
         path: skillDir,
-        message: `Skill '${name}' scaffolded successfully.`
+        message: `Skill '${name}' scaffolded and linked: ${linkResult.message}`
     }));
-
-    // 4. Update the Registry Index
-    const { execSync } = require('child_process');
-    execSync('node scripts/generate-registry-index.js');
 
 } catch (error) {
     console.log(JSON.stringify({ error: error.message }));
