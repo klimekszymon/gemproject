@@ -18,4 +18,4 @@ This is an auto-generated index of all available agent skills.
 | **version-bumper** | Increments project version in package.json. Use after a changelog has been drafted. | `gemini skills install ./skills/version-bumper` |
 
 
-*Last updated: Thu, 05 Mar 2026 23:00:16 GMT*
+*Last updated: Thu, 05 Mar 2026 23:12:12 GMT*

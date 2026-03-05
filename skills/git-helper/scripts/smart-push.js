@@ -17,9 +17,22 @@ try {
     process.exit(1);
   }
 
-  // 4. Push branch and tags
+  // 4. Handle Authentication (Task 12: Secrets)
+  const token = process.env.GITHUB_TOKEN;
+  let pushUrl = remote;
+
+  if (token) {
+    console.log(`🔐 Using GITHUB_TOKEN for authentication...`);
+    // Get the remote URL and inject the token
+    const remoteUrl = execSync(`git remote get-url ${remote}`).toString().trim();
+    if (remoteUrl.startsWith('https://github.com/')) {
+      pushUrl = remoteUrl.replace('https://github.com/', `https://${token}@github.com/`);
+    }
+  }
+
+  // 5. Push branch and tags
   console.log(`🚀 Pushing ${branch} to ${remote}...`);
-  execSync(`git push ${remote} ${branch} --tags`);
+  execSync(`git push "${pushUrl}" ${branch} --tags`, { stdio: 'inherit' });
 
   console.log(`✅ Push complete to ${remote}/${branch}.`);
 } catch (error) {
