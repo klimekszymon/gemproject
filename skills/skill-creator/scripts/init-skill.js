@@ -11,6 +11,7 @@ if (!name || !description) {
 
 const skillDir = path.join('skills', name);
 const skillMdPath = path.join(skillDir, 'SKILL.md');
+const assetsDir = path.join(__dirname, '../assets');
 
 try {
     // 1. Create Directories
@@ -32,13 +33,23 @@ You are the ${name} agent. Your goal is to...
 
     fs.writeFileSync(skillMdPath, template);
 
+    // 3. Copy all assets
+    if (fs.existsSync(assetsDir)) {
+        const assetFiles = fs.readdirSync(assetsDir);
+        assetFiles.forEach(file => {
+            const src = path.join(assetsDir, file);
+            const dest = path.join(skillDir, file.replace('.template', ''));
+            fs.copyFileSync(src, dest);
+        });
+    }
+
     console.log(JSON.stringify({
         success: true,
         path: skillDir,
         message: `Skill '${name}' scaffolded successfully.`
     }));
 
-    // 3. Update the Registry Index
+    // 4. Update the Registry Index
     const { execSync } = require('child_process');
     execSync('node scripts/generate-registry-index.js');
 
