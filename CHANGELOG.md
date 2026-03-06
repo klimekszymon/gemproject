@@ -1,3 +1,19 @@
+## v1.4.0 (2026-03-06)
+
+### Features
+- **Governance**: Implemented full `registry.json` manifest with 14 indexed skills.
+- **Sync Logic**: Added `sync-skills.js` and `validate-registry.js` for automated ecosystem audits.
+- **Unified Indexing**: Refactored `update-index.js` to build `skills/README.md` from the central registry.
+- **Hydration**: Added `hydrate-registry.sh` for bulk workspace initialization.
+- **Architecture**: Created `docs/registry-architecture.md` with Mermaid diagrams and prompt patterns.
+
+### Refactor
+- Consolidated all registry-related scripts into the `registry-manager` skill folder.
+- Synchronized version metadata across all 14 skill `SKILL.md` files.
+
+
+---
+
 ## v1.3.0 (2026-03-06)
 
 ### New Features

@@ -1,6 +1,6 @@
 {
   "name": "gemini-skill-registry",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "A modular registry and learning platform for AI Agent Skills.",
   "main": "index.js",
   "scripts": {

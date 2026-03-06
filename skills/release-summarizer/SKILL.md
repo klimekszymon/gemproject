@@ -1,6 +1,7 @@
 ---
 name: release-summarizer
 description: "Generates a changelog from git history. Now branch-aware and tag-aware."
+version: "1.0.0"
 ---
 
 # Instructions

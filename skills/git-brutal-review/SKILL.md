@@ -1,6 +1,7 @@
 ---
 name: git-brutal-review
 description: "A skill that provides honest, direct, and 'brutal' feedback on technical ideas and decisions."
+version: "1.0.0"
 ---
 
 # Instructions

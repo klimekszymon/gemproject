@@ -1,6 +1,7 @@
 ---
 name: session-closer-pro
-description: Professional session termination and context persistence. Use when the user wants to "save and exit" or "wrap up for today."
+description: "Professional session termination and context persistence. Use when the user wants to \"save and exit\" or \"wrap up for today.\""
+version: "1.0.0"
 ---
 
 # Instructions

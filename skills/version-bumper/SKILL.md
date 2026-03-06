@@ -1,6 +1,7 @@
 ---
 name: version-bumper
 description: "Increments project version in package.json. Use after a changelog has been drafted."
+version: "1.0.0"
 ---
 
 # Instructions

@@ -1,6 +1,7 @@
 ---
 name: greeter
 description: "A skill that provides a personalized greeting to the user."
+version: "1.0.0"
 ---
 
 # Instructions

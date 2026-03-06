@@ -1,6 +1,7 @@
 ---
 name: test-license-skill
 description: "Testing the asset-copying logic for licenses."
+version: "1.0.0"
 ---
 
 # Instructions

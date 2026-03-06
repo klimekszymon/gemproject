@@ -1,6 +1,7 @@
 ---
 name: github-notifier
 description: "Posts issues to GitHub. Use when a bug is confirmed or a task needs tracking."
+version: "1.0.0"
 ---
 
 # Environment Setup

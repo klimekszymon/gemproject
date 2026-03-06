@@ -1,6 +1,7 @@
 ---
 name: handoff-agent
 description: "A basic session summarizer (Task 6). Use ONLY when specifically requested by name for educational comparison or basic JSON reporting."
+version: "1.0.0"
 ---
 
 # Instructions
