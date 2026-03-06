@@ -8,11 +8,11 @@ The following Mermaid diagram illustrates how the `registry-manager` skill maint
 
 ```mermaid
 graph TD
-    A[registry.json] -->|Source of Truth| B(registry-manager Skill)
+    A["registry.json"] -->|Source of Truth| B("registry-manager Skill")
     
-    B -->|node update-index.js| C[skills/README.md]
-    B -->|node sync-skills.js| D[Local Environment (.gemini)]
-    B -->|node validate-registry.js| E[Validation Reports]
+    B -->|node update-index.js| C["skills/README.md"]
+    B -->|node sync-skills.js| D["Local Environment (.gemini)"]
+    B -->|node validate-registry.js| E["Validation Reports"]
     B -->|bash hydrate-registry.sh| D
     
     subgraph "Public Face"
