@@ -27,6 +27,7 @@ Welcome to the Team Platform Skill Registry. This repository is designed to take
 
 ### 04: Enterprise Orchestration (The "Ecosystem") - 🚧 IN PROGRESS
 *   **🚧 [14-skill-registry-governance.md](./04-enterprise-orchestration/14-skill-registry-governance.md)**: Versioning, deprecation, and registry synchronization.
+*   **🚧 [15-telemetry-and-performance.md](./04-enterprise-orchestration/15-telemetry-and-performance.md)**: Tracking skill usage, success rates, and token efficiency.
 
 ---
 
