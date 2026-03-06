@@ -15,10 +15,15 @@ try {
   // Use the gh CLI if available, otherwise simulate a failed API call for the tutorial
   // In a real skill, we'd use 'node-fetch' or similar to call the GitHub API directly.
   console.log(`📡 Attempting to post issue: "${title}"`);
-  
+
   // Simulation for tutorial purposes:
   console.log(`✅ Success! Issue created (Simulated).`);
   console.log(`🔗 View at: https://github.com/example/repo/issues/1`);
+
+  // 2. Use the token in a command (e.g., using GitHub CLI 'gh')
+  // const cmd = `gh issue create --title "${issueTitle}" --body "${issueBody}"`;
+  // const result = execSync(cmd, { env: { ...process.env, GITHUB_TOKEN: token } });
+  // console.log(`✅ Issue created successfully: ${result.toString().trim()}`);
 
 } catch (error) {
   console.error(`❌ Failed to create issue: ${error.message}`);
