@@ -1,6 +1,7 @@
 ---
 name: logo-provider
-description: Provides brand-approved assets and logo for consistent team branding. Use when starting new projects or updating existing ones to include official team graphics.
+description: "Provides brand-approved assets and logo for consistent team branding."
+version: "1.0.0"
 ---
 
 # Logo Provider

@@ -1,6 +1,7 @@
 ---
 name: git-helper
 description: "A skill that assists with common git operations, smart commits, and release tagging."
+version: "1.3.0"
 ---
 
 # Instructions

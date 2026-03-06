@@ -1,6 +1,7 @@
 ---
 name: prompt-engineer-pro
 description: "A specialized skill that audits and refines other skills for clarity, reliability, and instruction adherence."
+version: "1.0.0"
 ---
 
 # Instructions

@@ -1,6 +1,7 @@
 ---
-name: api-standards-guide
+name: api-standards
 description: "Expert guidance on Team API naming conventions, versioning, and error handling."
+version: "1.0.0"
 ---
 
 # Instructions

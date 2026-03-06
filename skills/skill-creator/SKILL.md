@@ -1,6 +1,7 @@
 ---
 name: skill-creator
 description: "A meta-skill that helps developers scaffold and build new AI Agent Skills."
+version: "1.1.0"
 ---
 
 # Instructions

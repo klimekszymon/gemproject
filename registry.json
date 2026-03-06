@@ -1,0 +1,36 @@
+{
+  "registry_name": "Team Skill Platform",
+  "last_updated": "2026-03-06",
+  "skills": {
+    "git-helper": {
+      "version": "1.3.0",
+      "path": "skills/git-helper",
+      "status": "active",
+      "description": "Standardized git and release workflows."
+    },
+    "prompt-engineer-pro": {
+      "version": "1.0.0",
+      "path": "skills/prompt-engineer-pro",
+      "status": "active",
+      "description": "Audits and refines skill instructions."
+    },
+    "skill-creator": {
+      "version": "1.1.0",
+      "path": "skills/skill-creator",
+      "status": "active",
+      "description": "Scaffolds new skills from templates."
+    },
+    "api-standards": {
+      "version": "1.0.0",
+      "path": "skills/api-standards",
+      "status": "active",
+      "description": "Enforces Team API naming and error conventions."
+    },
+    "logo-provider": {
+      "version": "1.0.0",
+      "path": "skills/logo-provider",
+      "status": "active",
+      "description": "Provides brand-approved assets and graphics."
+    }
+  }
+}
