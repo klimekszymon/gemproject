@@ -1,21 +1,23 @@
 # 🛠️ Team Skill Registry Index
 
-This is an auto-generated index of all available agent skills.
+This is an auto-generated index of all available agent skills based on the official registry.
 
-| Skill Name | Description | Install Command |
-| :--- | :--- | :--- |
-| **api-standards-guide** | Expert guidance on Team API naming conventions, versioning, and error handling. | `gemini skills install ./skills/api-standards-guide` |
-| **git-brutal-review** | A skill that provides honest, direct, and 'brutal' feedback on technical ideas and decisions. | `gemini skills install ./skills/git-brutal-review` |
-| **git-helper** | A skill that assists with common git operations, smart commits, and release tagging. | `gemini skills install ./skills/git-helper` |
-| **github-notifier** | Posts issues to GitHub. Use when a bug is confirmed or a task needs tracking. | `gemini skills install ./skills/github-notifier` |
-| **handoff-agent** | A basic session summarizer (Task 6). Use ONLY when specifically requested by name for educational comparison or basic JSON reporting. | `gemini skills install ./skills/handoff-agent` |
-| **greeter** | A skill that provides a personalized greeting to the user. | `gemini skills install ./skills/greeter` |
-| **logo-provider** | Provides brand-approved assets and logo for consistent team branding. Use when starting new projects or updating existing ones to include official team graphics. | `gemini skills install ./skills/logo-provider` |
-| **release-summarizer** | Generates a changelog from git history. Now branch-aware and tag-aware. | `gemini skills install ./skills/release-summarizer` |
-| **session-closer-pro** | Professional session termination and context persistence. Use when the user wants to "save and exit" or "wrap up for today. | `gemini skills install ./skills/session-closer-pro` |
-| **skill-creator** | A meta-skill that helps developers scaffold and build new AI Agent Skills. | `gemini skills install ./skills/skill-creator` |
-| **test-license-skill** | Testing the asset-copying logic for licenses. | `gemini skills install ./skills/test-license-skill` |
-| **version-bumper** | Increments project version in package.json. Use after a changelog has been drafted. | `gemini skills install ./skills/version-bumper` |
+| Skill Name | Version | Description | Install Command |
+| :--- | :--- | :--- | :--- |
+| **api-standards** | v1.0.0 | Expert guidance on Team API naming and error conventions. | `gemini skills install ./skills/api-standards` |
+| **git-brutal-review** | v1.0.0 | Direct, honest feedback on technical ideas. | `gemini skills install ./skills/git-brutal-review` |
+| **git-helper** | v1.3.0 | Standardized git and release workflows. | `gemini skills install ./skills/git-helper` |
+| **github-notifier** | v1.0.0 | Posts confirmed bugs or tasks to GitHub Issues. | `gemini skills install ./skills/github-notifier` |
+| **handoff** | v1.0.0 | Basic session summarizer and educational JSON reporting. | `gemini skills install ./skills/handoff` |
+| **hello-world** | v1.0.0 | A foundational 'Hello World' skill example. | `gemini skills install ./skills/hello-world` |
+| **logo-provider** | v1.0.0 | Provides brand-approved assets and official team graphics. | `gemini skills install ./skills/logo-provider` |
+| **prompt-engineer-pro** | v1.0.0 | Audits and refines other skills for clarity and reliability. | `gemini skills install ./skills/prompt-engineer-pro` |
+| **registry-manager** | v1.0.0 | Maintains the team's skill registry and synchronizes versions. | `gemini skills install ./skills/registry-manager` |
+| **release-summarizer** | v1.0.0 | Generates tag-aware changelogs from git history. | `gemini skills install ./skills/release-summarizer` |
+| **session-closer-pro** | v1.0.0 | Professional session termination and context persistence. | `gemini skills install ./skills/session-closer-pro` |
+| **skill-creator** | v1.1.0 | Meta-skill that scaffolds new skills following team standards. | `gemini skills install ./skills/skill-creator` |
+| **test-license-skill** | v1.0.0 | Testing the asset-copying logic for licenses. | `gemini skills install ./skills/test-license-skill` |
+| **version-bumper** | v1.0.0 | Increments project version in package.json. | `gemini skills install ./skills/version-bumper` |
 
 
-*Last updated: Thu, 05 Mar 2026 23:12:12 GMT*
+*Last updated: Fri, 06 Mar 2026 22:37:55 GMT (Registry v1.0.0)*

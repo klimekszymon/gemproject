@@ -2,35 +2,89 @@
   "registry_name": "Team Skill Platform",
   "last_updated": "2026-03-06",
   "skills": {
+    "api-standards": {
+      "version": "1.0.0",
+      "path": "skills/api-standards",
+      "status": "active",
+      "description": "Expert guidance on Team API naming and error conventions."
+    },
+    "git-brutal-review": {
+      "version": "1.0.0",
+      "path": "skills/git-brutal-review",
+      "status": "active",
+      "description": "Direct, honest feedback on technical ideas."
+    },
     "git-helper": {
       "version": "1.3.0",
       "path": "skills/git-helper",
       "status": "active",
       "description": "Standardized git and release workflows."
     },
-    "prompt-engineer-pro": {
+    "github-notifier": {
       "version": "1.0.0",
-      "path": "skills/prompt-engineer-pro",
+      "path": "skills/github-notifier",
       "status": "active",
-      "description": "Audits and refines skill instructions."
+      "description": "Posts confirmed bugs or tasks to GitHub Issues."
     },
-    "skill-creator": {
-      "version": "1.1.0",
-      "path": "skills/skill-creator",
-      "status": "active",
-      "description": "Scaffolds new skills from templates."
-    },
-    "api-standards": {
+    "handoff": {
       "version": "1.0.0",
-      "path": "skills/api-standards",
+      "path": "skills/handoff",
       "status": "active",
-      "description": "Enforces Team API naming and error conventions."
+      "description": "Basic session summarizer and educational JSON reporting."
+    },
+    "hello-world": {
+      "version": "1.0.0",
+      "path": "skills/hello-world",
+      "status": "active",
+      "description": "A foundational 'Hello World' skill example."
     },
     "logo-provider": {
       "version": "1.0.0",
       "path": "skills/logo-provider",
       "status": "active",
-      "description": "Provides brand-approved assets and graphics."
+      "description": "Provides brand-approved assets and official team graphics."
+    },
+    "prompt-engineer-pro": {
+      "version": "1.0.0",
+      "path": "skills/prompt-engineer-pro",
+      "status": "active",
+      "description": "Audits and refines other skills for clarity and reliability."
+    },
+    "registry-manager": {
+      "version": "1.0.0",
+      "path": "skills/registry-manager",
+      "status": "active",
+      "description": "Maintains the team's skill registry and synchronizes versions."
+    },
+    "release-summarizer": {
+      "version": "1.0.0",
+      "path": "skills/release-summarizer",
+      "status": "active",
+      "description": "Generates tag-aware changelogs from git history."
+    },
+    "session-closer-pro": {
+      "version": "1.0.0",
+      "path": "skills/session-closer-pro",
+      "status": "active",
+      "description": "Professional session termination and context persistence."
+    },
+    "skill-creator": {
+      "version": "1.1.0",
+      "path": "skills/skill-creator",
+      "status": "active",
+      "description": "Meta-skill that scaffolds new skills following team standards."
+    },
+    "test-license-skill": {
+      "version": "1.0.0",
+      "path": "skills/test-license-skill",
+      "status": "active",
+      "description": "Testing the asset-copying logic for licenses."
+    },
+    "version-bumper": {
+      "version": "1.0.0",
+      "path": "skills/version-bumper",
+      "status": "active",
+      "description": "Increments project version in package.json."
     }
   }
 }
