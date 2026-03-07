@@ -1,3 +1,28 @@
+## v1.6.0 (2026-03-07)
+
+### 🚀 New Tutorials
+- **Task 16: Inter-Skill Communication**: Advanced chaining via shared state and JSON contexts.
+- **Task 17: DevOps Mastery with Skills**: Skills as CI/CD triggers and IaC auditors.
+- **Task 18: Front-End UI Generation Skills**: Scaffolding from design tokens and CSS auditing.
+
+### 🛠️ New Skills
+- **`issue-analyzer`**: Diagnoses code issues and generates a diagnostic payload.
+- **`code-fixer`**: Executes fixes based on `issue-analyzer` output.
+
+### 📝 Documentation
+- Updated `tutorials/README.md` and `FUTURE_BLOCKS.md` to reflect Phase 4 and 5 progress.
+
+---
+
+## v1.5.0 (2026-03-07)
+
+### Features
+- **Telemetry**: Implemented `telemetry-analyst` skill for performance monitoring.
+- **Optimization**: Refined `registry-manager` workflow for faster skill discovery.
+- **Tutorials**: Added Task 15 tutorial on Telemetry & Skill Performance.
+
+---
+
 ## v1.4.0 (2026-03-06)
 
 ### Features
@@ -35,6 +60,3 @@
 - Implemented full Git Release Pipeline (summarizer, bumper, helper).
 - Added tag-release.js and push-release.js scripts.
 - Refined git-helper SKILL.md for release management.
-
----
-
