@@ -1,0 +1,9 @@
+{
+  "skills": {
+    "disabled": [
+      "logo-provider",
+      "greeter",
+      "test-license-skill"
+    ]
+  }
+}
