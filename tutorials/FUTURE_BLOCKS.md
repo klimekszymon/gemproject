@@ -15,20 +15,20 @@ This document outlines the expansion of the Skill Development Curriculum beyond 
 *   **Concepts**: Logging skill activations, success rates, and token usage.
 *   **Practical**: Creating a `log-collector` skill that aggregates session data into a JSON report.
 
-### **Task 16: Inter-Skill Communication (Advanced Chaining)**
+### **Task 16: Inter-Skill Communication (Advanced Chaining) ✅**
 *   **Concepts**: Using shared state files to pass data between skills (e.g., `skill_context.json`).
 *   **Practical**: A workflow where `issue-analyzer` passes a structured JSON task to `code-fixer`.
 
 ---
 
-## 🛠️ Phase 5: Domain-Specific Architectures
+## 🛠️ Phase 5: Domain-Specific Architectures ✅ (Partially)
 *Focus: Applying skills to specific industries and tech stacks.*
 
-### **Task 17: DevOps Mastery with Skills**
+### **Task 17: DevOps Mastery with Skills ✅**
 *   **Concepts**: Skills as CI/CD triggers, monitoring agents, and infrastructure as code (IaC) auditors.
 *   **Practical**: A skill that "pre-flights" a Terraform plan before it runs in GitHub Actions.
 
-### **Task 18: Front-End UI Generation Skills**
+### **Task 18: Front-End UI Generation Skills ✅**
 *   **Concepts**: Using skills to scaffold complex components based on design tokens.
 *   **Practical**: Integrating a `css-expert` skill that audits vanilla CSS against brand guidelines.
 

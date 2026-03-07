@@ -28,6 +28,11 @@ Welcome to the Team Platform Skill Registry. This repository is designed to take
 ### 04: Enterprise Orchestration (The "Ecosystem") - 🚧 IN PROGRESS
 *   **🚧 [14-skill-registry-governance.md](./04-enterprise-orchestration/14-skill-registry-governance.md)**: Versioning, deprecation, and registry synchronization.
 *   **🚧 [15-telemetry-and-performance.md](./04-enterprise-orchestration/15-telemetry-and-performance.md)**: Tracking skill usage, success rates, and token efficiency.
+*   **✅ [16-inter-skill-communication.md](./04-enterprise-orchestration/16-inter-skill-communication.md)**: Advanced chaining via shared state and JSON contexts.
+
+### 05: Domain-Specific Architectures (The "Experts") - 🚧 IN PROGRESS
+*   **✅ [17-devops-mastery-with-skills.md](./05-domain-specific-architectures/17-devops-mastery-with-skills.md)**: Skills as CI/CD triggers, monitoring agents, and IaC auditors.
+*   **✅ [18-frontend-ui-generation.md](./05-domain-specific-architectures/18-frontend-ui-generation.md)**: Scaffolding components from design tokens and CSS auditing.
 
 ---
 
