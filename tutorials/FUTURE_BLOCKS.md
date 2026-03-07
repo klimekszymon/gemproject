@@ -1,46 +1,47 @@
-# Roadmap: Future AI Agent Skill Tutorial Blocks
+# Roadmap: The Future of AI Agent Skill Platform
 
-This document outlines the expansion of the Skill Development Curriculum beyond the current Foundations, Advanced Automation, and Mastery Tracks.
-
----
-
-## 🏗️ Phase 4: Enterprise Orchestration (The "Ecosystem")
-*Focus: Scaling from individual skills to a collaborative agent network.*
-
-### **Task 14: Skill Registry Governance**
-*   **Concepts**: Versioning for skills, deprecation policies, and "Registry Metadata."
-*   **Practical**: Building a `registry-sync.js` script to keep distributed team members' local `~/.gemini/skills/` in sync with the central repo.
-
-### **Task 15: Telemetry & Skill Performance**
-*   **Concepts**: Logging skill activations, success rates, and token usage.
-*   **Practical**: Creating a `log-collector` skill that aggregates session data into a JSON report.
-
-### **Task 16: Inter-Skill Communication (Advanced Chaining) ✅**
-*   **Concepts**: Using shared state files to pass data between skills (e.g., `skill_context.json`).
-*   **Practical**: A workflow where `issue-analyzer` passes a structured JSON task to `code-fixer`.
+This document outlines the next stages of development for the Skill Registry and Learning Path, moving from individual skill architecture to complex ecosystem management.
 
 ---
 
-## 🛠️ Phase 5: Domain-Specific Architectures ✅ (Partially)
-*Focus: Applying skills to specific industries and tech stacks.*
-
-### **Task 17: DevOps Mastery with Skills ✅**
-*   **Concepts**: Skills as CI/CD triggers, monitoring agents, and infrastructure as code (IaC) auditors.
-*   **Practical**: A skill that "pre-flights" a Terraform plan before it runs in GitHub Actions.
-
-### **Task 18: Front-End UI Generation Skills ✅**
-*   **Concepts**: Using skills to scaffold complex components based on design tokens.
-*   **Practical**: Integrating a `css-expert` skill that audits vanilla CSS against brand guidelines.
+## ✅ Phase 1-6: Core Curriculum (COMPLETED)
+- Foundations, Advanced Automation, Mastery Ops, Enterprise Orchestration, Domain Architectures, and Autonomous Evolution are now live.
 
 ---
 
-## 🚀 Phase 6: Autonomous Evolution (Experimental)
-*Focus: Skills that improve themselves over time.*
+## 🏗️ Phase 7: Multi-Agent Orchestration
+*Focus: Managing teams of agents with different skill sets.*
 
-### **Task 19: Self-Healing Skills**
-*   **Concepts**: Detecting execution errors in scripts and proposing code fixes to the scripts themselves.
-*   **Practical**: A skill that reads a stack trace and offers a `git diff` for the failing `node` script.
+### **Task 21: The Team Lead Skill**
+*   **Concepts**: Designing a skill that acts as a router/coordinator for other agents.
+*   **Practical**: A skill that receives a complex project brief and delegates sub-tasks to specialized agents (e.g., Frontend Agent, Backend Agent, QA Agent).
 
-### **Task 20: The Meta-Registry Architect**
-*   **Concepts**: High-level orchestration of the entire platform development.
-*   **Practical**: Final Capstone Project: Build a skill that can autonomously scaffold an entire "Domain Track" (Folders, Markdown, and Boilerplate) based on a single user sentence.
+### **Task 22: Shared Memory & Context Persistence**
+*   **Concepts**: Using vector databases or long-term storage to maintain context across many sessions and agents.
+*   **Practical**: Integrating a skill with a simple ChromaDB or Pinecone instance to "remember" architectural decisions.
+
+---
+
+## 🚀 Phase 8: Production-Ready Integrations
+*Focus: Connecting skills to the real-world tools teams use every day.*
+
+### **Task 23: Slack & Discord Notification Skills**
+*   **Concepts**: Building secure webhooks and notification patterns for skill outputs.
+*   **Practical**: A skill that posts a "Deployment Summary" to a team Slack channel after a successful release.
+
+### **Task 24: Real-time API Monitoring**
+*   **Concepts**: Skills that poll external APIs and report on health or data changes.
+*   **Practical**: A skill that monitors a project's status on GitHub and alerts the user when a new Issue is labeled "priority."
+
+---
+
+## 🧠 Phase 9: Cognitive Architectures (Experimental)
+*Focus: Expanding the "reasoning" capabilities of skills.*
+
+### **Task 25: Fact-Checking & RAG Skills**
+*   **Concepts**: Implementing Retrieval Augmented Generation (RAG) within a skill.
+*   **Practical**: A skill that searches internal Confluence or Notion docs to answer company-specific policy questions.
+
+### **Task 26: Reflection & Self-Correction**
+*   **Concepts**: Designing skills that "think twice" before executing a command.
+*   **Practical**: A skill that audits its own generated plan and looks for security flaws before presenting it to the user.

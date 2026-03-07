@@ -16,8 +16,9 @@ This is an auto-generated index of all available agent skills based on the offic
 | **release-summarizer** | v1.0.0 | Generates tag-aware changelogs from git history. | `gemini skills install ./skills/release-summarizer` |
 | **session-closer-pro** | v1.0.0 | Professional session termination and context persistence. | `gemini skills install ./skills/session-closer-pro` |
 | **skill-creator** | v1.1.0 | Meta-skill that scaffolds new skills following team standards. | `gemini skills install ./skills/skill-creator` |
+| **telemetry-analyst** | v1.0.0 | Analyzes AI Agent Skill performance, ROI, and resource consumption. | `gemini skills install ./skills/telemetry-analyst` |
 | **test-license-skill** | v1.0.0 | Testing the asset-copying logic for licenses. | `gemini skills install ./skills/test-license-skill` |
 | **version-bumper** | v1.0.0 | Increments project version in package.json. | `gemini skills install ./skills/version-bumper` |
 
 
-*Last updated: Fri, 06 Mar 2026 22:37:55 GMT (Registry v1.0.0)*
+*Last updated: Sat, 07 Mar 2026 20:27:27 GMT (Registry v1.0.0)*
