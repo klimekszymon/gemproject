@@ -74,6 +74,12 @@
       "status": "active",
       "description": "Meta-skill that scaffolds new skills following team standards."
     },
+    "telemetry-analyst": {
+      "version": "1.0.0",
+      "path": "skills/telemetry-analyst",
+      "status": "active",
+      "description": "Analyzes AI Agent Skill performance, ROI, and resource consumption."
+    },
     "test-license-skill": {
       "version": "1.0.0",
       "path": "skills/test-license-skill",

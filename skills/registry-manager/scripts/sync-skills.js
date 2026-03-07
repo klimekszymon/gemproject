@@ -52,5 +52,5 @@ Object.entries(registry.skills).forEach(([name, meta]) => {
 if (!driftDetected) {
   console.log('\n🌟 All local skills are perfectly synchronized with the registry.');
 } else {
-  console.log('\n🚩 Drift detected. Use "update-skill.js <name>" to fix mismatches.');
+  console.log('\n🚩 Drift detected. Use "node skills/registry-manager/scripts/update-skill.js <name>" to fix mismatches.');
 }

@@ -1,0 +1,50 @@
+[
+  {
+    "timestamp": "2026-03-07T10:15:00Z",
+    "skill_id": "git-brutal-review",
+    "action": "provide-feedback",
+    "status": "success",
+    "metrics": {
+      "turns_saved": 4,
+      "tokens_used": 2150,
+      "duration_ms": 3200
+    },
+    "user_feedback": "Direct and actionable improvements for the telemetry script."
+  },
+  {
+    "timestamp": "2026-03-07T10:20:00Z",
+    "skill_id": "registry-manager",
+    "action": "sync-skills",
+    "status": "success",
+    "metrics": {
+      "turns_saved": 2,
+      "tokens_used": 1800,
+      "duration_ms": 4500
+    },
+    "user_feedback": "Identified version mismatch correctly."
+  },
+  {
+    "timestamp": "2026-03-07T10:25:00Z",
+    "skill_id": "registry-manager",
+    "action": "hydrate-registry",
+    "status": "success",
+    "metrics": {
+      "turns_saved": 15,
+      "tokens_used": 5400,
+      "duration_ms": 12000
+    },
+    "user_feedback": "Successfully linked all workspace skills in bulk."
+  },
+  {
+    "timestamp": "2026-03-07T10:30:00Z",
+    "skill_id": "telemetry-analyst",
+    "action": "audit-performance",
+    "status": "success",
+    "metrics": {
+      "turns_saved": 3,
+      "tokens_used": 1200,
+      "duration_ms": 2500
+    },
+    "user_feedback": "Provided clear efficiency breakdown."
+  }
+]
