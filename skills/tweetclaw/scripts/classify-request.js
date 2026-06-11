@@ -11,8 +11,13 @@ const categories = [
   ['user-lookup', ['follower', 'followers', 'lookup', 'profile', 'user']]
 ];
 
+const matchesKeyword = (keyword) => {
+  const escaped = keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  return new RegExp(`\\b${escaped}\\b`).test(request);
+};
+
 const category = categories.find(([, keywords]) =>
-  keywords.some((keyword) => request.includes(keyword))
+  keywords.some(matchesKeyword)
 )?.[0] ?? 'general';
 
 process.stdout.write(JSON.stringify({ category }));
