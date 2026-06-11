@@ -86,6 +86,12 @@
       "status": "active",
       "description": "Testing the asset-copying logic for licenses."
     },
+    "tweetclaw": {
+      "version": "1.0.0",
+      "path": "skills/tweetclaw",
+      "status": "active",
+      "description": "Uses TweetClaw for X/Twitter scraping, search, posting, monitoring, media, DMs, webhooks, and OpenClaw agent tools."
+    },
     "version-bumper": {
       "version": "1.0.0",
       "path": "skills/version-bumper",

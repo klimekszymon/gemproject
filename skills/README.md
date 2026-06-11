@@ -18,6 +18,7 @@ This is an auto-generated index of all available agent skills based on the offic
 | **skill-creator** | v1.1.0 | Meta-skill that scaffolds new skills following team standards. | `gemini skills install ./skills/skill-creator` |
 | **telemetry-analyst** | v1.0.0 | Analyzes AI Agent Skill performance, ROI, and resource consumption. | `gemini skills install ./skills/telemetry-analyst` |
 | **test-license-skill** | v1.0.0 | Testing the asset-copying logic for licenses. | `gemini skills install ./skills/test-license-skill` |
+| **tweetclaw** | v1.0.0 | Uses TweetClaw for X/Twitter scraping, search, posting, monitoring, media, DMs, webhooks, and OpenClaw agent tools. | `gemini skills install ./skills/tweetclaw` |
 | **version-bumper** | v1.0.0 | Increments project version in package.json. | `gemini skills install ./skills/version-bumper` |
 
 
