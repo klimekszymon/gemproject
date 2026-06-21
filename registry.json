@@ -1,6 +1,6 @@
 {
   "registry_name": "Team Skill Platform",
-  "last_updated": "2026-03-06",
+  "last_updated": "2026-06-21",
   "skills": {
     "api-standards": {
       "version": "1.0.0",
@@ -37,6 +37,12 @@
       "path": "skills/hello-world",
       "status": "active",
       "description": "A foundational 'Hello World' skill example."
+    },
+    "hermes-tweet": {
+      "version": "0.1.6",
+      "path": "skills/hermes-tweet",
+      "status": "active",
+      "description": "Use Hermes Tweet with Hermes Agent for X/Twitter research, read workflows, and gated actions."
     },
     "logo-provider": {
       "version": "1.0.0",
