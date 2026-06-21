@@ -10,6 +10,7 @@ This is an auto-generated index of all available agent skills based on the offic
 | **github-notifier** | v1.0.0 | Posts confirmed bugs or tasks to GitHub Issues. | `gemini skills install ./skills/github-notifier` |
 | **handoff** | v1.0.0 | Basic session summarizer and educational JSON reporting. | `gemini skills install ./skills/handoff` |
 | **hello-world** | v1.0.0 | A foundational 'Hello World' skill example. | `gemini skills install ./skills/hello-world` |
+| **hermes-tweet** | v0.1.6 | Use Hermes Tweet with Hermes Agent for X/Twitter research, read workflows, and gated actions. | `gemini skills install ./skills/hermes-tweet` |
 | **logo-provider** | v1.0.0 | Provides brand-approved assets and official team graphics. | `gemini skills install ./skills/logo-provider` |
 | **prompt-engineer-pro** | v1.0.0 | Audits and refines other skills for clarity and reliability. | `gemini skills install ./skills/prompt-engineer-pro` |
 | **registry-manager** | v1.0.0 | Maintains the team's skill registry and synchronizes versions. | `gemini skills install ./skills/registry-manager` |
@@ -21,4 +22,4 @@ This is an auto-generated index of all available agent skills based on the offic
 | **version-bumper** | v1.0.0 | Increments project version in package.json. | `gemini skills install ./skills/version-bumper` |
 
 
-*Last updated: Sat, 07 Mar 2026 20:27:27 GMT (Registry v1.0.0)*
+*Last updated: Sun, 21 Jun 2026 19:25:52 GMT (Registry v1.0.0)*
