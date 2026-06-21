@@ -6,8 +6,8 @@ const gates = [
   'actions: require explicit user confirmation before account changes',
 ];
 
-process.stdout.write([
-  'Hermes Tweet source: ' + source,
-  'Required safety gates:',
-  ...gates.map((gate) => '- ' + gate),
-].join('\n') + '\n');
+console.log('Hermes Tweet source: ' + source);
+console.log('Required safety gates:');
+for (const gate of gates) {
+  console.log('- ' + gate);
+}

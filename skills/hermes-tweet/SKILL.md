@@ -20,5 +20,5 @@ Use this skill when a user asks Hermes Agent to work with X/Twitter through the 
 6. Prefer concise JSON-ready inputs and return clear summaries with source URLs when available.
 
 ## Validation
-1. Run `node scripts/verify-hermes-tweet.js` to print the canonical source and required safety gates.
+1. Run `node skills/hermes-tweet/scripts/verify-hermes-tweet.js` from the repository root to print the canonical source and required safety gates.
 2. Before changing runtime behavior, compare against the Hermes Tweet repository tests and public safety checks.
