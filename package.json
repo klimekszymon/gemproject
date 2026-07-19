@@ -4,9 +4,9 @@
   "description": "A modular registry and learning platform for AI Agent Skills.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "validate": "node scripts/validate-skill.js",
-    "index": "node scripts/generate-registry-index.js"
+    "test": "npm run validate",
+    "validate": "node skills/registry-manager/scripts/validate-registry.js",
+    "index": "node skills/registry-manager/scripts/update-index.js"
   },
   "keywords": [
     "ai",
